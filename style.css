@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    flex-wrap: wrap;
+    
+}
+.card{
+    height: 400px;
+    width: 400px;
+    padding: 10px;
+    background-color: white;
+    flex-direction: column;
+}
+.answer .btn{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    margin: 10px;
+    text-align: left;
+    padding-left: 5px;
+}
+/* .answer .btn:hover{
+    background-color: black;
+    color:white;
+} */
+.next{
+    background-color: blue;
+    color:white;
+width: 120px;
+height: 30px;
+    border:none;
+    margin-top: 8px;
+    margin-left: 100px;
+    display: none;
+}
